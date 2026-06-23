@@ -36,14 +36,24 @@ export default function App() {
     setLoading(true);
     setErrorText('');
     try {
-      const response = await fetch('/api/dashboard');
-      const resData = await response.json();
-      if (resData.success) {
-        setMaterials(resData.materials || []);
-        setTransactions(resData.transactions || []);
-      } else {
-        setErrorText("Não foi possível sincronizar o inventário.");
-      }
+      const { data: materialsData, error: materialsError } = await supabase
+  .from('materials')
+  .select('*')
+  .order('name', { ascending: true });
+
+const { data: transactionsData, error: transactionsError } = await supabase
+  .from('transactions')
+  .select('*')
+  .order('date', { ascending: false });
+
+if (materialsError || transactionsError) {
+  console.error(materialsError || transactionsError);
+  setErrorText('Não foi possível sincronizar o inventário com o Supabase.');
+  return;
+}
+
+setMaterials(materialsData || []);
+setTransactions(transactionsData || []);
     } catch (err) {
       console.error(err);
       setErrorText("Erro de comunicação com o servidor de banco de dados local.");
