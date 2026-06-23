@@ -1,0 +1,6 @@
+{
+  "name": "Controle de Almoxarifado",
+  "description": "Sistema completo para controle de estoque, entrada por XML de NF, geração e leitura de códigos de barras, alertas e previsão de demanda por IA.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

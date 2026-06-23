@@ -1,0 +1,218 @@
+{
+  "materials": [
+    {
+      "id": "mat-1",
+      "code": "7891020301011",
+      "name": "Bota de Segurança de Couro Bracol",
+      "description": "Bota de couro com biqueira de aço, tamanho 41, CA ativo",
+      "category": "EPI (Proteção)",
+      "quantity": 12,
+      "minStock": 15,
+      "unit": "un",
+      "location": "Corredor A - Prateleira 2",
+      "unitPrice": 120.00,
+      "lastUpdated": "2026-06-20T14:30:00Z"
+    },
+    {
+      "id": "mat-2",
+      "code": "7891020301028",
+      "name": "Óculos de Proteção Incolor DeltaPlus",
+      "description": "Óculos de segurança anti-risco e anti-embaçante",
+      "category": "EPI (Proteção)",
+      "quantity": 35,
+      "minStock": 20,
+      "unit": "un",
+      "location": "Corredor A - Prateleira 4",
+      "unitPrice": 18.50,
+      "lastUpdated": "2026-06-19T09:15:00Z"
+    },
+    {
+      "id": "mat-3",
+      "code": "7891020301035",
+      "name": "Disjuntor Tripolar DIN 32A Soprano",
+      "description": "Disjuntor termomagnético Curva C de 32 amperes",
+      "category": "Componentes Elétricos",
+      "quantity": 4,
+      "minStock": 10,
+      "unit": "un",
+      "location": "Corredor B - Prateleira 1",
+      "unitPrice": 45.90,
+      "lastUpdated": "2026-06-18T16:45:00Z"
+    },
+    {
+      "id": "mat-4",
+      "code": "7891020301042",
+      "name": "Cabo Flexível de Cobre 2.5mm sil (Rolo 100m)",
+      "description": "Rolo de cabo elétrico flexível 750V, cor azul",
+      "category": "Componentes Elétricos",
+      "quantity": 8,
+      "minStock": 5,
+      "unit": "rolo",
+      "location": "Corredor B - Prateleira 3",
+      "unitPrice": 189.00,
+      "lastUpdated": "2026-06-22T11:00:00Z"
+    },
+    {
+      "id": "mat-5",
+      "code": "7891020301059",
+      "name": "Papel A4 Sulfite Chamex (Caixa com 10 resmas)",
+      "description": "Papel sulfite branco formato A4, 75g/m²",
+      "category": "Materiais de Escritório",
+      "quantity": 3,
+      "minStock": 5,
+      "unit": "cx",
+      "location": "Corredor C - Prateleira 1",
+      "unitPrice": 240.00,
+      "lastUpdated": "2026-06-15T08:00:00Z"
+    },
+    {
+      "id": "mat-6",
+      "code": "7891020301066",
+      "name": "Estopa para Polimento branca (Fardo 1kg)",
+      "description": "Fardo de estopa de algodão para limpeza geral",
+      "category": "Suprimentos",
+      "quantity": 25,
+      "minStock": 10,
+      "unit": "kg",
+      "location": "Corredor D - Prateleira 5",
+      "unitPrice": 15.20,
+      "lastUpdated": "2026-06-21T10:30:00Z"
+    },
+    {
+      "id": "mat-7",
+      "code": "7891020301073",
+      "name": "Luminária de Emergência LED 30 LEDs Segurimax",
+      "description": "Luminária autônoma bivolt para rotas de fuga",
+      "category": "Segurança",
+      "quantity": 15,
+      "minStock": 10,
+      "unit": "un",
+      "location": "Corredor C - Prateleira 4",
+      "unitPrice": 22.90,
+      "lastUpdated": "2026-06-14T15:20:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "materialId": "mat-1",
+      "materialName": "Bota de Segurança de Couro Bracol",
+      "type": "ENTRADA",
+      "quantity": 20,
+      "date": "2026-03-10T10:00:00Z",
+      "origin": "XML_NFE",
+      "responsible": "Carlos Silva",
+      "notes": "Entrada ref. NF-e nº 452932"
+    },
+    {
+      "id": "tx-2",
+      "materialId": "mat-1",
+      "materialName": "Bota de Segurança de Couro Bracol",
+      "type": "SAIDA",
+      "quantity": 5,
+      "date": "2026-03-25T14:30:00Z",
+      "origin": "MANUAL_SAIDA",
+      "responsible": "Carlos Silva",
+      "notes": "Entrega para equipe de Manutenção Corretiva"
+    },
+    {
+      "id": "tx-3",
+      "materialId": "mat-1",
+      "materialName": "Bota de Segurança de Couro Bracol",
+      "type": "SAIDA",
+      "quantity": 10,
+      "date": "2026-04-12T11:00:00Z",
+      "origin": "BARCODE_SCAN",
+      "responsible": "Carlos Silva",
+      "notes": "EPIs entregues na integração de novos contratados"
+    },
+    {
+      "id": "tx-4",
+      "materialId": "mat-1",
+      "materialName": "Bota de Segurança de Couro Bracol",
+      "type": "ENTRADA",
+      "quantity": 15,
+      "date": "2026-05-05T09:00:00Z",
+      "origin": "XML_NFE",
+      "responsible": "Mariana Santos",
+      "notes": "NF-e nº 458210 - Fornecedor EPI Sul"
+    },
+    {
+      "id": "tx-5",
+      "materialId": "mat-1",
+      "materialName": "Bota de Segurança de Couro Bracol",
+      "type": "SAIDA",
+      "quantity": 8,
+      "date": "2026-05-20T16:20:00Z",
+      "origin": "MANUAL_SAIDA",
+      "responsible": "Carlos Silva",
+      "notes": "Substituição de EPI gasto"
+    },
+    {
+      "id": "tx-6",
+      "materialId": "mat-2",
+      "materialName": "Óculos de Proteção Incolor DeltaPlus",
+      "type": "ENTRADA",
+      "quantity": 50,
+      "date": "2026-04-01T08:30:00Z",
+      "origin": "XML_NFE",
+      "responsible": "Mariana Santos",
+      "notes": "Estoque Inicial / NF 453110"
+    },
+    {
+      "id": "tx-7",
+      "materialId": "mat-2",
+      "materialName": "Óculos de Proteção Incolor DeltaPlus",
+      "type": "SAIDA",
+      "quantity": 15,
+      "date": "2026-04-20T10:00:00Z",
+      "origin": "MANUAL_SAIDA",
+      "responsible": "Carlos Silva",
+      "notes": "Fornecido à equipe operacional"
+    },
+    {
+      "id": "tx-8",
+      "materialId": "mat-3",
+      "materialName": "Disjuntor Tripolar DIN 32A Soprano",
+      "type": "ENTRADA",
+      "quantity": 10,
+      "date": "2026-03-15T11:00:00Z",
+      "origin": "MANUAL_ENTRADA",
+      "responsible": "Mariana Santos",
+      "notes": "Sobra de obra elétrica Galpão 3"
+    },
+    {
+      "id": "tx-9",
+      "materialId": "mat-3",
+      "materialName": "Disjuntor Tripolar DIN 32A Soprano",
+      "type": "SAIDA",
+      "quantity": 6,
+      "date": "2026-04-28T15:30:00Z",
+      "origin": "BARCODE_SCAN",
+      "responsible": "Carlos Silva",
+      "notes": "Reforma do painel elétrico central"
+    },
+    {
+      "id": "tx-10",
+      "materialId": "mat-4",
+      "materialName": "Cabo Flexível de Cobre 2.5mm sil (Rolo 100m)",
+      "type": "ENTRADA",
+      "quantity": 10,
+      "date": "2026-05-10T14:00:00Z",
+      "origin": "XML_NFE",
+      "responsible": "Mariana Santos",
+      "notes": "NF 456200 - Distribuidora Elétrica Norte"
+    },
+    {
+      "id": "tx-11",
+      "materialId": "mat-4",
+      "materialName": "Cabo Flexível de Cobre 2.5mm sil (Rolo 100m)",
+      "type": "SAIDA",
+      "quantity": 4,
+      "date": "2026-05-25T13:45:00Z",
+      "origin": "MANUAL_SAIDA",
+      "responsible": "Carlos Silva",
+      "notes": "Instalação de novas tomadas no setor de TI"
+    }
+  ]
+}
