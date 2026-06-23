@@ -6,6 +6,7 @@ import TransactionsHistory from './components/TransactionsHistory';
 import NfeXmlImporter from './components/NfeXmlImporter';
 import BarcodeScannerWidget from './components/BarcodeScannerWidget';
 import DemandForecastPanel from './components/DemandForecastPanel';
+import { supabase } from './supabaseClient';
 import { 
   LayoutDashboard, 
   PackageSearch, 
