@@ -542,7 +542,10 @@ export default function MaterialsManager({ materials, onRefresh }: MaterialsMana
                 Fechar
               </button>
               <button
-                onClick={() => window.print()}
+                onClick={() => {
+                  document.title = `Etiqueta - ${printBarcodeMaterial.name}`;
+                  window.print();
+                }}
                 className="px-4 py-2 bg-slate-900 hover:bg-indigo-650 text-white text-xs font-black uppercase tracking-widest rounded-none border-2 border-slate-900 flex-1 flex items-center justify-center gap-1 cursor-pointer transition-colors"
               >
                 <Printer className="h-4.5 w-4.5" />
